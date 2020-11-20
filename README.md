@@ -1,12 +1,10 @@
-# deepss_book
-
-Documentation for DeepSS
+# DeepSS docs
 
 ## Usage
 
 ### Building the book
 
-If you'd like to develop on and build the deepss_book book, you should:
+If you'd like to develop on and build the deepss docs, you should:
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
