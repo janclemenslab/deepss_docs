@@ -10,7 +10,6 @@ author                      : Jan Clemens  # The author of the book
 copyright                   : "2020"  # Copyright year to be placed in the footer
 # logo                        : logo.png  # A path to the book logo
 execute:
-  execute_notebooks: 'off'
   timeout: 300
   stderr_output: remove
   stdout_output: remove

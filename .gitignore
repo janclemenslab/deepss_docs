@@ -116,7 +116,7 @@ fig*
 *.err
 *.out
 
-# docs/_build
+docs/_build
 # /*
 # /*/
 # !/src/
