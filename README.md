@@ -1,8 +1,6 @@
 # DeepSS docs
 
-## Usage
-
-### Building the book
+## Build
 
 If you'd like to develop on and build the deepss docs, you should:
 
@@ -11,23 +9,12 @@ If you'd like to develop on and build the deepss docs, you should:
 - (Recommended) Remove the existing `docs/_build/` directory
 - Run `jupyter-book build docs/`
 
-A fully-rendered HTML version of the book will be built in `deepss_book/_build/html/`.
+A fully-rendered HTML version of the book will be built in `docs/_build/html/`.
 
-### Hosting the book
+## Publish
 
-The html version of the book is hosted on the `gh-pages` branch of this repo. A GitHub actions workflow has been created that automatically builds and pushes the book to this branch on a push or pull request to main.
-
-If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
-
-- Navigating to your local build; and running,
-- `ghp-import -n -p -f docs/_build/html`
-
-This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
-
-## Contributors
-
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/postpop/deepss_book/graphs/contributors).
+Publish the book by running `build_and_publish.sh`. This will build the book and push the build static html files to the [https://github.com/janclemenslab/deepss/tree/gh-pages]() and make it accessible via [https://janclemenslab/deepss]()
 
 ## Credits
 
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book) and [https://github.com/c-w/ghp-import]().
