@@ -2,16 +2,27 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
 - file: install
-- file: annotate
-- file: make_dataset
-- file: train
-- file: predict
+- file: tutorials/tutorials
+  sections:
+    - file: tutorials/gui
+    - file: tutorials/notebook
+    - file: tutorials/cli
+- file: tutorials_gui/tutorials_gui
+  sections:
+    - file: tutorials_gui/load
+    - file: tutorials_gui/annotate
+    - file: tutorials_gui/train
+    - file: tutorials_gui/predict
+# - file: annotate
+# - file: make_dataset
+# - file: train
+# - file: predict
 - file: unsupervised/unsupervised
   sections:
     - file: unsupervised/flies
     - file: unsupervised/mice
     - file: unsupervised/birds
-- file: technical
+- file: technical/technical
   sections:
-    - file: data_formats
-    - file: cli
+    - file: technical/data_formats
+    - file: technical/cli
