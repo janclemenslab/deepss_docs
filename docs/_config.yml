@@ -2,12 +2,12 @@
 # https://jupyterbook.org/customize/config.html
 
 # Book settings
-title                       : DeepSS docs  # The title of the book. Will be placed in the left navbar.
-author                      : Jan Clemens  # The author of the book
+title                       : ''  #DeepSS docs  # The title of the book. Will be placed in the left navbar.
+author                      : ncb lab  # The author of the book
 copyright                   : "2020"  # Copyright year to be placed in the footer
-# logo                        : logo.png  # A path to the book logo
+logo                        : icon.png  # A path to the book logo
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: off  # auto
   timeout: 300
   stderr_output: remove
   stdout_output: remove

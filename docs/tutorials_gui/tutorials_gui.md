@@ -1,13 +1,8 @@
-# GUI tutorial
+# GUI documentation
+Start with the [quick start tutorial](/quick_start).
 
-## Start the GUI
-
-Install _DeepSS_ following these [instructions](/install). Then start the GUI by opening a terminal, activating the conda environment created during install and typing `dss-gui`:
-```shell
-conda activate dss
-dss-gui
-```
-
-In the window that opens, choose _Load audio from file_ to open your audio data:
-
-<img src="/images/xb_start.png" alt="start screen" width=450>
+Comprehensive description of all menus and options to:
+- [load data](load)
+- [annotate song](annotate)
+- [train a network](train)
+- [predict annotations](predict)

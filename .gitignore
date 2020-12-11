@@ -117,3 +117,5 @@ fig*
 *.out
 
 docs/_build
+/api*
+/.vscode

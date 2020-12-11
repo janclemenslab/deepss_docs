@@ -2,21 +2,25 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
 - file: install
-- file: tutorials/tutorials
-  sections:
-    - file: tutorials/gui
-    - file: tutorials/notebook
-    - file: tutorials/cli
+- file: quick_start
 - file: tutorials_gui/tutorials_gui
   sections:
     - file: tutorials_gui/load
     - file: tutorials_gui/annotate
     - file: tutorials_gui/train
     - file: tutorials_gui/predict
-# - file: annotate
-# - file: make_dataset
-# - file: train
-# - file: predict
+- file: tutorials/tutorials
+  sections:
+    - file: tutorials/convert
+    - file: tutorials/make_ds_notebook
+    - file: tutorials/inspect_dataset
+    - file: tutorials/train
+    - file: tutorials/predict
+    - file: tutorials/colab
+    - file: tutorials/label_segments
+    - file: tutorials/evaluate_fly
+    - file: tutorials/evaluate_bird
+    - file: tutorials/realtime
 - file: unsupervised/unsupervised
   sections:
     - file: unsupervised/flies
@@ -26,3 +30,6 @@
   sections:
     - file: technical/data_formats
     - file: technical/cli
+- file: api/index
+- file: credits
+
